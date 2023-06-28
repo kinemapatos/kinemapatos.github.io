@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verifikim Bilete</title>
+    <style>
+        body {
+            background-color: yellow;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .message {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 20px 40px;
+            font-size: 24px;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <p>{{ message }}</p>
+        <a href="{{ url_for('home') }}" class="button">Verifiko bileta te tjera</a>
+    </div>
+</body>
+</html>

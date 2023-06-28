@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verifikim Bilete</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Verifikim Bilete</h1>
+        <form action="/verifikim" method="POST">
+            <input type="text" name="ticket_code" placeholder="Shkruaj kodin e biletes">
+            <input type="submit" value="Verify">
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

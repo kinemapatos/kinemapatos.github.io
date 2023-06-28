@@ -1,0 +1,59 @@
+body {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 48px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 24px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 24px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
